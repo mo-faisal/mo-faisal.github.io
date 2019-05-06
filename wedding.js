@@ -3,6 +3,8 @@ window.onload = function(){
     var unavailable = document.getElementById("unavailable");
     var available = document.querySelector(".available");
     var event = document.querySelector(".custom-select");
+    var guests = document.querySelector(".guestNo");
+
     form.onsubmit = subform;
     unavailable.onclick = mini;
     available.onclick = expand;
@@ -18,6 +20,7 @@ window.onload = function(){
     function mini(){
         document.querySelector(".toremove").style.display = "none";
         event.value = "Walimah & Filipino Community";
+        guests.value = "0";
     }
 
     function expand(){
