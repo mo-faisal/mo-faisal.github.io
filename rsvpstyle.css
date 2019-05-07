@@ -30,7 +30,7 @@ h5, h6 {
 }
 
 
-input{
+input, textarea, select{
    text-align:center;
 }
 
